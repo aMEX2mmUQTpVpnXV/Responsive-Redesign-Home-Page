@@ -5,6 +5,12 @@
   border: 0;
   font-family: "Inter";
 }
+
+img {
+  width: 100%;
+  object-fit: contain;
+}
+
 .width-constrint {
   max-width: 80%;
   align-items: center;
