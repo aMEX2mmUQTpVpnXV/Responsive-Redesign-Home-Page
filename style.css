@@ -7,6 +7,8 @@
 }
 .width-constrint {
   max-width: 80%;
+  align-items: center;
+  justify-content: center;
 }
 
 .top-banner {
@@ -25,7 +27,7 @@
 }
 
 .top-banner-text {
-  font-size: 40px;
+  font-size: 60px;
   font-weight: bold;
   color: white;
 }
@@ -34,7 +36,7 @@
   font-size: 30px;
   font-weight: bold;
   color: black;
-  margin: 30px;
+  margin: 30px 0px;
 }
 
 .main-text {
@@ -54,4 +56,11 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
