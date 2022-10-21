@@ -64,3 +64,8 @@ li {
   align-items: center;
   justify-content: center;
 }
+
+.prototype-container a {
+  text-decoration: none;
+  margin: 20px;
+}
